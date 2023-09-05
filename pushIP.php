@@ -1,7 +1,7 @@
 <?php
 $ip = $_POST['input-ip'] ?? null;
 $ipData = @json_decode(file_get_contents(
-    "http://www.geoplugin.net/json.gp?ip=77.242.31.255"));
+    "http://www.geoplugin.net/json.gp?ip=77.255.255.255"));
 $ipRequest = $ipData->geoplugin_request;
 $countryName = $ipData->geoplugin_countryName;
 $countryCode = $ipData->geoplugin_countryCode; // BR
