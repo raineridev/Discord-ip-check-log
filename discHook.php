@@ -1,6 +1,5 @@
 <?php 
 include('pushIP.php');
-include('flagChange.php');
 $webhookurl = 'https://discord.com/api/webhooks/1151691749606035607/08kyz7nMmgF-wTLfVSDZTmE7vwRP8S48JGhUHML8v0RrRoojeH0nrs9uyK00nmGrJXKT';
 $json_data = json_encode([
     "content" => "**New Log IP** <a:meme_fallseinberg:793579434199744532>",
